@@ -6,7 +6,6 @@ Constructing logistic regression model to predict the probability of a forest fi
 This report aims to build a model to predict the probability of a forest fire bigger than 1 ha, in the northeast region of Portugal, by using meteorological and other data from the dataset Forest Fires (Morais, 2007). 
 
 Section 1.0 of this report illustrates the statistical and graphical summaries of the Forest Fires dataset. Moreover, section1.0 cleans and transforms the data suitable for the binary logistic regression model. Section 2.0 constructs an initial model and then utilises Akaike information criterion (AIC), Bayesian information criterion (BIC), Brier score, pseudo-R squared, Wald test and the likelihood ratio test to create the best prediction model. Section 3.0 validates the best fitting model by analysing the model’s statistical significance, residuals, overdispersion and outliers. Ultimately, section 4.0 uses the best fitting model for predicting the probability of a forest fire bigger than 1 ha and subsequently validates the model prediction using test and train sets, confusion matrix, histogram, classifications prediction accuracy and the Receiver operating characteristic curve (ROC).
-<img width="218" alt="image" src="https://user-images.githubusercontent.com/97530878/153618152-7504f204-b85b-4291-bb11-79a532ea85e1.png">
 
 # Section 1.0 Data Summary 
 
