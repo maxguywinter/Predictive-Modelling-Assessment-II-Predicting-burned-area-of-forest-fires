@@ -435,6 +435,7 @@ calc_class_err(actual = test$area_dummy, predicted = tst_pred) # Test error rate
 
 test_prob <- predict(aicmod, newdata = test, type = "response") # ROC and AUC curves to test sensitivity and specificity. 
 test_roc <- roc(test$area_dummy ~ test_prob, plot = TRUE, print.auc = TRUE)
+```
 
 # Works Cited
 Hartig, F., 2016. theoretical ecology. [Online] 
@@ -446,5 +447,3 @@ Available at: https://rcompanion.org/rcompanion/e_07.html
 [Accessed 28 January 2022].
 Morais, P. C. a. A., 2007. A Data Mining Approach to Predict Forest Fires using Meteorological Data, s.l.: s.n.
 Peng, Y. D. a. C.-Y. J., 2013. Principled missing data methods for researchers. Springerplus, 2(222).
-
-```
