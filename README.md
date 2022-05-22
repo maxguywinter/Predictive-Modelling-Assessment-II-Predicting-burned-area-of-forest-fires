@@ -244,7 +244,9 @@ Figure 10.4 AIC Model ROC Curve
 
 The AUC value for the AIC model is 0.53. However, an AUC value of 0.5 shows that a model cannot differentiate between the positive and negative classes. Thus, suggesting the model is no better than performing random guessing. Consequently, the AIC model (AUC = 0.53) has deplorable discrimination and the ability to classify observations into classes. Therefore, the AIC model does not fit the dataset well and thus has abysmal prediction accuracy.
 
-# Section 5.0 Script 
+# Section 5.0 R Script 
+
+```{r} 
 
 library(corrplot) # for correlation matrix graph visualization.
 library(ggplot2) # for graph visualizations. 
@@ -445,3 +447,4 @@ Available at: https://rcompanion.org/rcompanion/e_07.html
 Morais, P. C. a. A., 2007. A Data Mining Approach to Predict Forest Fires using Meteorological Data, s.l.: s.n.
 Peng, Y. D. a. C.-Y. J., 2013. Principled missing data methods for researchers. Springerplus, 2(222).
 
+```
